@@ -1,0 +1,229 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    background-color: #141413;
+    color: #FFFFFF;    
+}
+
+ol, ul {
+	list-style: none;    
+}
+
+a {
+    text-decoration: none;
+    color: #FFFFFF; 
+}
+
+section {
+    padding: 160px 140px 160px 140px;
+}
+
+.bg-gris-oscuro {
+    color:#191717;
+}
+
+
+
+/*-------------------------------------------------------------*/
+/*Header - Barra de opciones*/ 
+
+.header-container {     
+    position: fixed;   
+    width: 100%;      
+}
+
+.header-nav {  
+    background: #282828;    
+    display: flex;
+}
+
+
+/*-------------------------------------------------------------*/
+/*Logo - Barra de opciones*/ 
+
+.logo-container {
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;
+    /*margin-right: auto;*/
+    /*margin-left: 120px;*/    
+    /*justify-content: center;*/
+    align-items: center;   
+}
+
+.logo-text {
+    padding-left: 14px;
+    /*margin-left: 8px; */   
+}
+
+.logo-text p {
+    font-size: 22px;
+}
+
+/*-------------------------------------------------------------*/
+/*Opciones - Barra de opciones*/ 
+
+ul {
+    padding-right: 100px;
+    margin-left: auto;    
+    display: flex;
+    font-size: 16px;    
+}
+
+ul li a {
+    display: inline-block;
+    padding: 35px 40px;    
+}
+
+header a {
+    color:#D8D6D6;
+}
+
+header a:hover{
+    color: #AD541D;    
+}
+
+
+/*-------------------------------------------------------------*/
+/*Icon - Barra de opciones*/ 
+
+.icons-container {
+    display: flex;
+    padding-right: 100px;
+    padding-left: 100px;    
+    align-items: center;   
+}
+
+.search-icon {    
+    padding-right: 40px;    
+     
+}
+
+
+
+/*-------------------------------------------------------------*/
+/*Home*/
+
+.home-nav {    
+    display: flex;
+    align-items: center;
+}
+
+.home-nav h1 {
+    font-size: 60px;     
+}
+
+.home-nav p {
+    padding-top: 60px;
+    font-size: 30px; 
+}
+
+.buttons-descarga {
+    display:flex;
+    padding-top: 60px;
+}
+
+.buttons-descarga a {
+    display: flex;    
+    padding-right: 60px; 
+    
+}
+
+.right-part {
+    padding-left: auto;
+    padding-right: 140px;
+}
+
+
+/*-------------------------------------------------------------*/
+/*Segmentos*/
+
+.segmentos-nav {
+    display: flex;
+    align-items: center; 
+}
+
+.universitarios-part {
+    display: flex;
+    align-items: center;
+}
+
+.universitarios-text {
+    padding-left: 50px;
+}
+
+.universitarios-part h2 {
+    font-size: 40px;
+    color: whitesmoke; 
+}
+
+
+.universitarios-part p {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;    
+    
+}
+
+.universitarios-part a {
+    font-size: 20px;  
+    color:whitesmoke;
+    background-color: #AD541D; 
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;    
+}
+
+.universitarios-part a:hover{
+    background-color: #723712;     
+}
+
+.padres-part {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.padres-part {
+    display: flex;
+    align-items: center;
+    padding-left: 130px;
+}
+
+.padres-text {
+    padding-left: 50px;
+}
+
+
+.padres-part h2 {
+    font-size: 40px;
+    color: whitesmoke;
+}
+
+.padres-part p {
+    font-size: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px; 
+}
+
+.padres-part a {
+    font-size: 20px;  
+    color:whitesmoke;
+    background-color: #AD541D; 
+    padding: 5px 15px 5px 15px;
+    border-radius: 8px;   
+}
+
+.padres-part a:hover{
+    background-color: #723712;   
+}
+
+
