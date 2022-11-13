@@ -1,0 +1,30 @@
+.bg-color-header {
+    background-color: #282828;
+}
+
+.btn-color-header {
+    background-color: #282828;
+}
+
+
+
+
+
+.btn-naranje {
+    background-color: rgb(223, 155, 28);
+}
+
+.bg-gris-oscuro {
+    background-color: rgb(93, 94, 94);
+}
+
+.btn-gris-oscuro {
+    background-color: rgb(93, 94, 94);
+}
+
+.container-logo {
+    display: flex;
+    align-items: center;
+}
+
+
