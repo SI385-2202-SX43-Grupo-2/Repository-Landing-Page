@@ -1,0 +1,103 @@
+
+.bg-gris-oscuro {
+    background-color: #282828;
+}
+
+.btn-gris-oscuro {
+    background-color: #282828;
+}
+
+
+.bg-naranje {
+    background-color: rgb(223, 155, 28);
+}
+
+.btn-naranje {
+    background-color: rgb(223, 155, 28);
+}
+
+.bg-naranja-texto {
+    color: #AD541D;  
+}
+
+
+.btn-naranja {
+    background-color: #AD541D;
+    color: whitesmoke;    
+}
+
+.btn-naranja:hover {
+    background-color: #743a16;
+    color: whitesmoke; 
+}
+
+
+
+/*-----------------------------------------colores*/
+
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #141413;
+    color: #FFFFFF;    
+}
+
+
+
+
+/*HEADER COMPLETO Y SI, SOLO EL HEADER*/
+
+/*-------------------------------------------------------------*/
+/*Header - Barra de opciones*/ 
+
+.container-fluid {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+
+/*-------------------------------------------------------------*/
+
+/*Logo - Barra de opciones*/ 
+
+.container-logo {
+    display: flex;
+    padding-left: 20px;
+    padding-right: 40px;
+     
+}
+
+.container-logo a {
+    padding-left: 14px;
+}
+
+
+/*-------------------------------------------------------------*/
+/*Opciones - Barra de opciones*/ 
+
+#navbarSupportedContent li {
+    padding-right: 30px;    
+}
+
+#navbarSupportedContent li:hover {
+    color: #AD541D;    
+}
+
+
+
+
+/*-------------------------------------------------------------*/
+/*Icon - Barra de opciones*/ 
+
+#featured-2 img {
+    padding-bottom: 20px;
+}
+
+.feature.col {
+    align-items: center;
+    justify-content: center;
+}
